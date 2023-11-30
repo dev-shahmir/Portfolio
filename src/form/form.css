@@ -1,0 +1,34 @@
+.container-3{
+    background-color: #E1EBED;
+    height: 100vh;
+    width: 100%;
+}
+.hero-1{
+    background: url(../images/WhatsApp\ Image\ 2023-11-29\ at\ 7.33.00\ PM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 98vh;
+    margin: auto;
+    border-radius: 5px;
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 25%;
+    width: 45%;
+}
+.talk{
+    width: 50% ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 40%;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#footer{
+    background-color: #331C52;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+.logoo img{
+    width: 60px;
+}
+.links img{
+    width: 30px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 42%;
+    padding: 4px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.links img:hover{
+    background-color: gray;
+}

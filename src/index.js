@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./index.css"
+// import Map from './info-sec/map';
+// import Slider from './info-sec/slider';
+import Navbar from './navbar/navbar';
+import Footer from './footer/footer';
+import Main from './main/main';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <Main />
+    <Footer />
   </React.StrictMode>
 );
 
